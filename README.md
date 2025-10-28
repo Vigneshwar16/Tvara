@@ -1,16 +1,33 @@
-# React + Vite
+React Bits — BlurText & MagnetLines
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A collection of elegant, reusable UI micro-interactions built with React + Vite.
+Includes two modern visual components — BlurText and MagnetLines — integrated into the homepage with Gemini AI interaction support.
 
-Currently, two official plugins are available:
+🚀 Features
+🔹 BlurText
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Text appears blurred by default
 
-## React Compiler
+On hover or when a prop is set, it becomes sharp and crisp
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Ideal for landing pages or subtle call-to-action effects
 
-## Expanding the ESLint configuration
+🔹 MagnetLines
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Multiple lines subtly move toward the cursor, creating a magnetic illusion
+
+Fully configurable speed, intensity, and number of lines
+
+Lightweight — uses React hooks + requestAnimationFrame
+
+⚙️ Tech Stack
+
+⚛️ React 18 + Vite
+
+🎨 CSS / Tailwind (optional)
+
+🧠 Gemini API integration
+
+🧩 Reusable custom hooks
+
+🛠️ ESLint + Prettier configured
